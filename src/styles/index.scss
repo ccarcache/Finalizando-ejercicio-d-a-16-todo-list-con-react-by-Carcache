@@ -1,45 +1,53 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
+h1{
+    color: rgb(65, 27, 168);
+    font-family: 'Orelega One', cursive;
+    font-size: 100px;
+    margin: auto;
+    text-align: center;
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+}
+body{
+    background: whitesmoke;
+}
 
-*/
-h1{color: rgb(177, 149, 149);
-font-family: 'Courier New', Courier, monospace;
-font-size: 100px;
-margin: auto;
-text-align: center;}
-body{background: rgb(218, 212, 212);}
-input{margin: auto;
-font-family: 'Courier New', Courier, monospace;}
-.card{width: 400px;
-height: 25px;
-margin-left: 500px;}
-p{ margin: auto;
-    width: 420px;
-height: 20px;
-font-family: 'Courier New', Courier, monospace;
-padding-left: 15px;
-margin-left: 40px;}
+input{
+    margin: auto;
+    font-family: 'Couier New', Courier, monospace;
+}
+
+.card{
+    width: 410px;
+    height: 20px;
+    margin-left: 500px;
+}
+
+p{
+    margin: auto;
+    width: 410px;
+    height: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 15px;
+    margin-left: 40px;}
     
 
-#lista{justify-content: space-between;
+#lista{
+    justify-content: space-between;
     margin: auto;
     width: 400px;
-height: 50px;
-border: 2px ;
+    height: 50px;
+    border: 4px ;
 }
-#texto{font-family: 'Courier New', Courier, monospace;}
-#lista1{margin: auto;
+
+#texto{
+    font-family: 'Courier New', Courier, monospace;}
+
+#lista1{
+    margin: auto;
     width: 400px;
-height: 50px;
-border: 2px ;
-justify-content: center;
-font-family: 'Courier New', Courier, monospace;}
+    height: 50px;
+    border: 4px ;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import List from "./list.js";
 
-//create your first component
+//creano mi primer componente.
 export const Home = () => {
 	const [inputValue, setInputValue] = useState();
 	const [itemList, updateItemList] = useState([]);
@@ -18,7 +18,7 @@ export const Home = () => {
 
 	return (
 		<div>
-			<h1>todos</h1>
+			<h1>To Do List</h1>
 			<div className="card">
 				<div className=" input-card">
 					<input
@@ -27,7 +27,7 @@ export const Home = () => {
 						onChange={e => setInputValue(e.target.value)}
 						type="text"
 						className="form-control"
-						placeholder="What needs to be done?"
+						placeholder="Qué tareas tengo pendientes por hacer?"
 						aria-label="Username"
 						aria-describedby="addon-wrapping"></input>
 				</div>
